@@ -5,11 +5,33 @@
     <title>练习-1：css selector</title>
     <style>
        /* you can test your css at here */
+       .section .title { color:red; }
+       #title { color:green; }
+       .title { color:yellow !important; }
+       .section > h1 { color:blue; }
+
     </style>
 </head>
 <body>
     <div class="section">
         <h1 id="title" class="title">title</h1>
+        <h1 id="title1" class="title">title</h1>
+        <h1 id="title2" class="title1">title</h1>
+        <h1 id="title3" class="title2">title</h1>
+        <h1 id="title12" class="title">title</h1>
+        <div class="son">
+            <h1 id="title4" class="title3">title</h1>
+            <h1 id="title5" class="title4">title</h1>
+            <h1 id="title6" class="title">title</h1>
+        </div>
+
+    </div>
+    <div class="section1">
+        <h1 id="title7" class="title">title</h1>
+        <h1 id="title8" class="title5">title</h1>
+        <h1 id="title9" class="title6">title</h1>
+        <h1 id="title10" class="title">title</h1>
+        <h1 id="title11" class="title">title</h1>
     </div>
 </body>
 </html>
